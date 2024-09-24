@@ -11,7 +11,8 @@ class openedProject2ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        self.navigationItem.backButtonTitle = " "
+        
         // Do any additional setup after loading the view.
     }
     

@@ -11,9 +11,41 @@ class networkStateViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-
+        
+        self.navigationController?.navigationBar.isHidden = true
         // Do any additional setup after loading the view.
     }
+    
+
+    @IBAction func buttonTapped(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let nextViewController = storyboard.instantiateViewController(withIdentifier: "userView") as? userProfileViewController {
+            self.navigationController?.pushViewController(nextViewController, animated: true)
+        }
+    }
+    
+    
+    @IBAction func buttonTapped2(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let nextViewController = storyboard.instantiateViewController(withIdentifier: "ProjectsView") as? ProjectUserViewController {
+            self.navigationController?.pushViewController(nextViewController, animated: true)
+        }
+    }
+
+    @IBAction func buttonTapped3(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let nextViewController = storyboard.instantiateViewController(withIdentifier: "UploadView") as? uploadReportViewController {
+            self.navigationController?.pushViewController(nextViewController, animated: true)
+        }
+    }
+    
+    @IBAction func buttonTapped4(_ sender: UIButton) {
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let nextViewController = storyboard.instantiateViewController(withIdentifier: "NewsView") as? globalFeedViewController {
+            self.navigationController?.pushViewController(nextViewController, animated: true)
+        }
+    }
+    
     
 
     /*

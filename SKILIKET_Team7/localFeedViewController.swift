@@ -9,12 +9,21 @@ import UIKit
 
 class localFeedViewController: UIViewController {
 
+    
+    @IBOutlet weak var localB: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.navigationController?.navigationBar.isHidden = true
+        
 
-        // Do any additional setup after loading the view.
     }
     
+    @IBAction func backButtonTapped(_ sender: UIButton) {
+        // Este es el lugar correcto para regresar a la vista anterior
+        self.navigationController?.popViewController(animated: true)
+    }
+
 
     /*
     // MARK: - Navigation

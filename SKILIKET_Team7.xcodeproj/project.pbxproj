@@ -13,6 +13,26 @@
 		CA2E8EDB2C81848C00FD70DF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CA2E8EDA2C81848C00FD70DF /* Base */; };
 		CA2E8EDD2C81848D00FD70DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CA2E8EDC2C81848D00FD70DF /* Assets.xcassets */; };
 		CA2E8EE02C81848D00FD70DF /* Base in Resources */ = {isa = PBXBuildFile; fileRef = CA2E8EDF2C81848D00FD70DF /* Base */; };
+		CA2E8EE82C84105B00FD70DF /* 2LoginViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EE72C84105B00FD70DF /* 2LoginViewController.swift */; };
+		CA2E8EEA2C8410AB00FD70DF /* 1PaginaInicialViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EE92C8410AB00FD70DF /* 1PaginaInicialViewController.swift */; };
+		CA2E8EF02C855C7200FD70DF /* 2_1LoginExitosoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EEF2C855C7200FD70DF /* 2_1LoginExitosoViewController.swift */; };
+		CA2E8EF22C855D5E00FD70DF /* createAccountUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EF12C855D5E00FD70DF /* createAccountUserViewController.swift */; };
+		CA2E8EF42C85647900FD70DF /* createAccountAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EF32C85647900FD70DF /* createAccountAdminViewController.swift */; };
+		CA2E8EF62C85746400FD70DF /* successRegisteredUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EF52C85746400FD70DF /* successRegisteredUserViewController.swift */; };
+		CA2E8EF82C85751800FD70DF /* sucessRegisteredAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA2E8EF72C85751800FD70DF /* sucessRegisteredAdminViewController.swift */; };
+		CA8C98A42C869C89000B96A3 /* ProjectAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C98A32C869C89000B96A3 /* ProjectAdminViewController.swift */; };
+		CA8C98A62C869D00000B96A3 /* ProjectUserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C98A52C869D00000B96A3 /* ProjectUserViewController.swift */; };
+		CA8C98A82C869F20000B96A3 /* addProjectAdminViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CA8C98A72C869F20000B96A3 /* addProjectAdminViewController.swift */; };
+		CAA46E942C85791A009CE6FF /* selectionProject1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E932C85791A009CE6FF /* selectionProject1ViewController.swift */; };
+		CAA46E962C857925009CE6FF /* selectionProject2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E952C857925009CE6FF /* selectionProject2ViewController.swift */; };
+		CAA46E982C857930009CE6FF /* selectionProject3ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E972C857930009CE6FF /* selectionProject3ViewController.swift */; };
+		CAA46E9A2C85E34D009CE6FF /* globalFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E992C85E34D009CE6FF /* globalFeedViewController.swift */; };
+		CAA46E9C2C85E359009CE6FF /* localFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E9B2C85E359009CE6FF /* localFeedViewController.swift */; };
+		CAA46E9E2C863067009CE6FF /* uploadReportViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E9D2C863067009CE6FF /* uploadReportViewController.swift */; };
+		CAA46EA02C8634BB009CE6FF /* networkStateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46E9F2C8634BB009CE6FF /* networkStateViewController.swift */; };
+		CAA46EA22C8638C7009CE6FF /* userProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46EA12C8638C7009CE6FF /* userProfileViewController.swift */; };
+		CAA46EA42C8647D5009CE6FF /* openedProjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46EA32C8647D4009CE6FF /* openedProjectViewController.swift */; };
+		CAA46EA62C864DD7009CE6FF /* openedProject2ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CAA46EA52C864DD7009CE6FF /* openedProject2ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +44,26 @@
 		CA2E8EDC2C81848D00FD70DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		CA2E8EDF2C81848D00FD70DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		CA2E8EE12C81848D00FD70DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CA2E8EE72C84105B00FD70DF /* 2LoginViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2LoginViewController.swift; sourceTree = "<group>"; };
+		CA2E8EE92C8410AB00FD70DF /* 1PaginaInicialViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 1PaginaInicialViewController.swift; sourceTree = "<group>"; };
+		CA2E8EEF2C855C7200FD70DF /* 2_1LoginExitosoViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = 2_1LoginExitosoViewController.swift; sourceTree = "<group>"; };
+		CA2E8EF12C855D5E00FD70DF /* createAccountUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountUserViewController.swift; sourceTree = "<group>"; };
+		CA2E8EF32C85647900FD70DF /* createAccountAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = createAccountAdminViewController.swift; sourceTree = "<group>"; };
+		CA2E8EF52C85746400FD70DF /* successRegisteredUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = successRegisteredUserViewController.swift; sourceTree = "<group>"; };
+		CA2E8EF72C85751800FD70DF /* sucessRegisteredAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sucessRegisteredAdminViewController.swift; sourceTree = "<group>"; };
+		CA8C98A32C869C89000B96A3 /* ProjectAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectAdminViewController.swift; sourceTree = "<group>"; };
+		CA8C98A52C869D00000B96A3 /* ProjectUserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProjectUserViewController.swift; sourceTree = "<group>"; };
+		CA8C98A72C869F20000B96A3 /* addProjectAdminViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addProjectAdminViewController.swift; sourceTree = "<group>"; };
+		CAA46E932C85791A009CE6FF /* selectionProject1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionProject1ViewController.swift; sourceTree = "<group>"; };
+		CAA46E952C857925009CE6FF /* selectionProject2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionProject2ViewController.swift; sourceTree = "<group>"; };
+		CAA46E972C857930009CE6FF /* selectionProject3ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = selectionProject3ViewController.swift; sourceTree = "<group>"; };
+		CAA46E992C85E34D009CE6FF /* globalFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = globalFeedViewController.swift; sourceTree = "<group>"; };
+		CAA46E9B2C85E359009CE6FF /* localFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = localFeedViewController.swift; sourceTree = "<group>"; };
+		CAA46E9D2C863067009CE6FF /* uploadReportViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uploadReportViewController.swift; sourceTree = "<group>"; };
+		CAA46E9F2C8634BB009CE6FF /* networkStateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = networkStateViewController.swift; sourceTree = "<group>"; };
+		CAA46EA12C8638C7009CE6FF /* userProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfileViewController.swift; sourceTree = "<group>"; };
+		CAA46EA32C8647D4009CE6FF /* openedProjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openedProjectViewController.swift; sourceTree = "<group>"; };
+		CAA46EA52C864DD7009CE6FF /* openedProject2ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = openedProject2ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -40,6 +80,10 @@
 		CA2E8EC72C81848C00FD70DF = {
 			isa = PBXGroup;
 			children = (
+				CA8C98A72C869F20000B96A3 /* addProjectAdminViewController.swift */,
+				CAA46EA52C864DD7009CE6FF /* openedProject2ViewController.swift */,
+				CAA46EA32C8647D4009CE6FF /* openedProjectViewController.swift */,
+				CA2E8EF32C85647900FD70DF /* createAccountAdminViewController.swift */,
 				CA2E8ED22C81848C00FD70DF /* SKILIKET_Team7 */,
 				CA2E8ED12C81848C00FD70DF /* Products */,
 			);
@@ -60,9 +104,25 @@
 				CA2E8ED52C81848C00FD70DF /* SceneDelegate.swift */,
 				CA2E8ED72C81848C00FD70DF /* ViewController.swift */,
 				CA2E8ED92C81848C00FD70DF /* Main.storyboard */,
+				CA8C98A52C869D00000B96A3 /* ProjectUserViewController.swift */,
+				CA8C98A32C869C89000B96A3 /* ProjectAdminViewController.swift */,
+				CAA46EA12C8638C7009CE6FF /* userProfileViewController.swift */,
+				CAA46E9F2C8634BB009CE6FF /* networkStateViewController.swift */,
+				CAA46E9D2C863067009CE6FF /* uploadReportViewController.swift */,
+				CAA46E9B2C85E359009CE6FF /* localFeedViewController.swift */,
+				CAA46E992C85E34D009CE6FF /* globalFeedViewController.swift */,
+				CA2E8EF52C85746400FD70DF /* successRegisteredUserViewController.swift */,
+				CA2E8EF12C855D5E00FD70DF /* createAccountUserViewController.swift */,
+				CA2E8EEF2C855C7200FD70DF /* 2_1LoginExitosoViewController.swift */,
+				CA2E8EE72C84105B00FD70DF /* 2LoginViewController.swift */,
 				CA2E8EDC2C81848D00FD70DF /* Assets.xcassets */,
 				CA2E8EDE2C81848D00FD70DF /* LaunchScreen.storyboard */,
 				CA2E8EE12C81848D00FD70DF /* Info.plist */,
+				CA2E8EE92C8410AB00FD70DF /* 1PaginaInicialViewController.swift */,
+				CA2E8EF72C85751800FD70DF /* sucessRegisteredAdminViewController.swift */,
+				CAA46E932C85791A009CE6FF /* selectionProject1ViewController.swift */,
+				CAA46E952C857925009CE6FF /* selectionProject2ViewController.swift */,
+				CAA46E972C857930009CE6FF /* selectionProject3ViewController.swift */,
 			);
 			path = SKILIKET_Team7;
 			sourceTree = "<group>";
@@ -138,9 +198,29 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CAA46EA42C8647D5009CE6FF /* openedProjectViewController.swift in Sources */,
 				CA2E8ED82C81848C00FD70DF /* ViewController.swift in Sources */,
+				CAA46E9A2C85E34D009CE6FF /* globalFeedViewController.swift in Sources */,
 				CA2E8ED42C81848C00FD70DF /* AppDelegate.swift in Sources */,
+				CA2E8EF82C85751800FD70DF /* sucessRegisteredAdminViewController.swift in Sources */,
+				CA2E8EF42C85647900FD70DF /* createAccountAdminViewController.swift in Sources */,
+				CAA46E982C857930009CE6FF /* selectionProject3ViewController.swift in Sources */,
+				CAA46E9E2C863067009CE6FF /* uploadReportViewController.swift in Sources */,
 				CA2E8ED62C81848C00FD70DF /* SceneDelegate.swift in Sources */,
+				CA2E8EE82C84105B00FD70DF /* 2LoginViewController.swift in Sources */,
+				CAA46EA02C8634BB009CE6FF /* networkStateViewController.swift in Sources */,
+				CA8C98A42C869C89000B96A3 /* ProjectAdminViewController.swift in Sources */,
+				CAA46E962C857925009CE6FF /* selectionProject2ViewController.swift in Sources */,
+				CA8C98A62C869D00000B96A3 /* ProjectUserViewController.swift in Sources */,
+				CAA46EA62C864DD7009CE6FF /* openedProject2ViewController.swift in Sources */,
+				CA2E8EEA2C8410AB00FD70DF /* 1PaginaInicialViewController.swift in Sources */,
+				CAA46E942C85791A009CE6FF /* selectionProject1ViewController.swift in Sources */,
+				CAA46EA22C8638C7009CE6FF /* userProfileViewController.swift in Sources */,
+				CA2E8EF02C855C7200FD70DF /* 2_1LoginExitosoViewController.swift in Sources */,
+				CA8C98A82C869F20000B96A3 /* addProjectAdminViewController.swift in Sources */,
+				CA2E8EF22C855D5E00FD70DF /* createAccountUserViewController.swift in Sources */,
+				CA2E8EF62C85746400FD70DF /* successRegisteredUserViewController.swift in Sources */,
+				CAA46E9C2C85E359009CE6FF /* localFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
